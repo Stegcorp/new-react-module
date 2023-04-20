@@ -1,9 +1,13 @@
-const baseURL= process.env.REACT_APP_API
+// const baseURL = process.env.REACT_APP_API
+const carsBaseURL = 'http://owu.linkpc.net/carsAPI/v1'
+const placeBaseURL = 'http://jsonplaceholder.typicode.com'
 
-const urls={
-    cars:'/cars'
+const urls = {
+    carsAPI: {cars: '/cars'},
+    placeAPI: {users: '/users', comments: '/comments'}
 }
 export {
     urls,
-    baseURL
+    carsBaseURL,
+    placeBaseURL
 }

@@ -1,0 +1,7 @@
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-top: 15px;
+}

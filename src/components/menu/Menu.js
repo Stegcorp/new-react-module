@@ -12,7 +12,9 @@ const Menu = () => {
                     <li><Link to={'/comments'}><b>comments </b></Link></li>
                 </ul>
             </div>
-            <Outlet/>/
+            <div className="Outlet">
+            <Outlet/>
+            </div>
         </div>
     );
 };

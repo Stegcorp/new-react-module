@@ -4,7 +4,7 @@ const baseURL = 'https://jsonplaceholder.typicode.com'
 
 const urls = {
     todos: '/todos',
-    albams: '/albans',
+    albams: '/albums',
     comments:'/comments',
     posts:'/posts'
 }

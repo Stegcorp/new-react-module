@@ -1,11 +1,12 @@
 import './App.css';
-import {Comments, Users} from "./components";
+import {Cars, Comments, Users} from "./components";
 
 function App() {
     return (
         <div className="App">
             {/*<Users/>*/}
-            <Comments/>
+            {/*<Comments/>*/}
+            <Cars/>
         </div>
     );
 }
